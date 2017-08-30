@@ -12,6 +12,10 @@ namespace IocPerformance.Adapters
 
         string Url { get; }
 
+        bool SupportsTransient { get; }
+
+        bool SupportsCombined { get; }
+
         bool SupportsConditional { get; }
 
         bool SupportGeneric { get; }

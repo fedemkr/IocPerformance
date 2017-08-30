@@ -11,6 +11,32 @@ namespace IocPerformance
         {
             yield return new NoContainerAdapter();
 
+            //var containers = CreateAdaptersByDefault();
+            var containers = CreateAdaptersForMvvmCross();
+
+            foreach (var container in containers)
+                yield return container;
+        }
+
+        private static IEnumerable<IContainerAdapter> CreateAdaptersForMvvmCross()
+        {
+            yield return new MvvmCrossIoCContainerAdapter();
+
+            yield return new NinjectContainerAdapter();
+
+            yield return new AutofacContainerAdapter();
+
+            yield return new CatelContainerAdapter();
+
+            yield return new DryIocAdapter();
+
+            yield return new LightInjectContainerAdapter();
+
+            yield return new SimpleInjectorContainerAdapter();
+        }
+
+        private static IEnumerable<IContainerAdapter> CreateAdaptersByDefault()
+        {
             var containers = typeof(ContainerAdapterFactory).Assembly.GetTypes()
                  .Where(t => t.IsClass && !t.IsAbstract && t.GetInterfaces().Contains(typeof(IContainerAdapter)))
                  .Where(t => !t.Equals(typeof(NoContainerAdapter))
@@ -32,10 +58,7 @@ namespace IocPerformance
                     string.Join(", ", duplicateNames)));
             }
 
-            foreach (var container in containers)
-            {
-                yield return container;
-            }
+            return containers;
         }
     }
 }
