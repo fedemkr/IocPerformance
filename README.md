@@ -17,36 +17,36 @@ Results
 ### Basic Features
 |**Container**|**Singleton**|**Transient**|**Combined**|**Complex**|
 |:------------|------------:|------------:|-----------:|----------:|
-|**No**|82<br/>128|87<br/>125|147<br/>144|208<br/>161|
-|**[MvvmCross 5.1.1](https://github.com/MvvmCross/MvvmCross)**|336<br/>379|<br/>|<br/>|8713<br/>8750|
-|**[Ninject 3.2.2.0](http://ninject.org)**|4633<br/>2954|15471<br/>9828|44304<br/>27886|124101*<br/>76003*|
-|**[Autofac 4.6.1](https://github.com/autofac/Autofac)**|759<br/>557|832<br/>548|1987<br/>1323|6496<br/>4316|
-|**[Catel 5.0.0](http://www.catelproject.com)**|288<br/>334|4150<br/>4156|9225<br/>9297|20772<br/>20488|
-|**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|62<br/>**75**|67<br/>107|**99**<br/>161|**163**<br/>159|
-|**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|**43**<br/>97|**62**<br/>**87**|107<br/>**135**|176<br/>**148**|
-|**[SimpleInjector 4.0.8](https://simpleinjector.org)**|81<br/>108|124<br/>124|158<br/>166|268<br/>240|
+|**No**|78<br/>119|95<br/>119|139<br/>147|211<br/>159|
+|**[MvvmCross 5.1.1](https://github.com/MvvmCross/MvvmCross)**|318<br/>371|1088<br/>1170|3065<br/>3152|8354<br/>8584|
+|**[Ninject 3.2.2.0](http://ninject.org)**|4603<br/>2829|16562<br/>11829|43867<br/>27879|125045*<br/>77335*|
+|**[Autofac 4.6.1](https://github.com/autofac/Autofac)**|732<br/>544|725<br/>515|2022<br/>1358|6379<br/>4396|
+|**[Catel 5.0.0](http://www.catelproject.com)**|292<br/>357|3774<br/>3937|8577<br/>8754|19296<br/>19376|
+|**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|**44**<br/>**69**|65<br/>**99**|103<br/>**110**|**167**<br/>**140**|
+|**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|54<br/>88|**63**<br/>106|**102**<br/>112|173<br/>147|
+|**[SimpleInjector 4.0.8](https://simpleinjector.org)**|87<br/>86|129<br/>123|165<br/>182|270<br/>189|
 ### Advanced Features
 |**Container**|**Property**|**Generics**|**IEnumerable**|**Conditional**|**Child Container**|**Asp Net Core**|**Interception With Proxy**|
 |:------------|-----------:|-----------:|--------------:|--------------:|------------------:|---------------:|--------------------------:|
-|**No**|193<br/>180|138<br/>136|407<br/>306|125<br/>114|739<br/>440|<br/>|96<br/>100|
+|**No**|191<br/>155|123<br/>139|412<br/>268|127<br/>134|726<br/>497|<br/>|92<br/>174|
 |**[MvvmCross 5.1.1](https://github.com/MvvmCross/MvvmCross)**|<br/>|<br/>|<br/>|<br/>|<br/>|<br/>|<br/>|
-|**[Ninject 3.2.2.0](http://ninject.org)**|106420*<br/>67173*|42032<br/>23420|99456*<br/>62654*|32969<br/>17873|123797000*<br/>119458333*|<br/>|432287*<br/>25557021*|
-|**[Autofac 4.6.1](https://github.com/autofac/Autofac)**|6495<br/>4335|2094<br/>1258|7439<br/>4172|1528<br/>1031|**54677**<br/>**29229**|13988<br/>8353|21981<br/>11994|
-|**[Catel 5.0.0](http://www.catelproject.com)**|<br/>|9140<br/>9220|<br/>|<br/>|<br/>|<br/>|**4130**<br/>**4155**|
-|**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|**163**<br/>**141**|**95**<br/>**109**|362<br/>282|**106**<br/>**130**|<br/>|<br/>|374267*<br/>10982802*|
-|**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|166<br/>165|96<br/>**109**|**345**<br/>**248**|392<br/>281|<br/>|**2156**<br/>**1461**|476777*<br/>11238487*|
-|**[SimpleInjector 4.0.8](https://simpleinjector.org)**|299<br/>249|153<br/>159|894<br/>537|181<br/>192|<br/>|<br/>|399986*<br/>30682515*|
+|**[Ninject 3.2.2.0](http://ninject.org)**|112310*<br/>68850*|45954<br/>25917|102237*<br/>62166*|31843<br/>19002|125354000*<br/>113662878*|<br/>|434366*<br/>28779214*|
+|**[Autofac 4.6.1](https://github.com/autofac/Autofac)**|6448<br/>4357|2007<br/>1269|7491<br/>4141|1512<br/>1034|**53977**<br/>**29022**|13743<br/>8586|23132<br/>11853|
+|**[Catel 5.0.0](http://www.catelproject.com)**|<br/>|8587<br/>8725|<br/>|<br/>|<br/>|<br/>|**3840**<br/>**3953**|
+|**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|**161**<br/>180|98<br/>**108**|350<br/>310|**106**<br/>**111**|<br/>|<br/>|366750*<br/>10954810*|
+|**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|166<br/>**142**|**93**<br/>125|**337**<br/>**239**|381<br/>245|<br/>|**2194**<br/>**1413**|450507*<br/>12174371*|
+|**[SimpleInjector 4.0.8](https://simpleinjector.org)**|296<br/>231|153<br/>155|878<br/>509|165<br/>187|<br/>|<br/>|384554*<br/>30945876*|
 ### Prepare
 |**Container**|**Prepare And Register**|**Prepare And Register And Simple Resolve**|
 |:------------|-----------------------:|------------------------------------------:|
 |**No**|3<br/>|3<br/>|
-|**[MvvmCross 5.1.1](https://github.com/MvvmCross/MvvmCross)**|**5**<br/>|**9**<br/>|
-|**[Ninject 3.2.2.0](http://ninject.org)**|232560*<br/>|234717*<br/>|
-|**[Autofac 4.6.1](https://github.com/autofac/Autofac)**|301<br/>|323<br/>|
-|**[Catel 5.0.0](http://www.catelproject.com)**|27134<br/>|28615<br/>|
-|**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|67<br/>|307<br/>|
-|**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|180<br/>|963<br/>|
-|**[SimpleInjector 4.0.8](https://simpleinjector.org)**|623<br/>|2017<br/>|
+|**[MvvmCross 5.1.1](https://github.com/MvvmCross/MvvmCross)**|**7**<br/>|**10**<br/>|
+|**[Ninject 3.2.2.0](http://ninject.org)**|228678*<br/>|229920*<br/>|
+|**[Autofac 4.6.1](https://github.com/autofac/Autofac)**|295<br/>|317<br/>|
+|**[Catel 5.0.0](http://www.catelproject.com)**|24344<br/>|26201<br/>|
+|**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|72<br/>|290<br/>|
+|**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|139<br/>|893<br/>|
+|**[SimpleInjector 4.0.8](https://simpleinjector.org)**|621<br/>|2017<br/>|
 ### Charts
 ![Basic features](http://www.palmmedia.de/content/blogimages/5225c515-2f25-498f-84fe-6c6e931d2042.png)
 ![Advanced features](http://www.palmmedia.de/content/blogimages/e0401485-20c6-462e-b5d4-c9cf854e6bee.png)

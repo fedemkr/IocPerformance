@@ -29,10 +29,6 @@ namespace IocPerformance.Adapters
             get { return "https://github.com/MvvmCross/MvvmCross"; }
         }
 
-        public override bool SupportsTransient => false;
-
-        public override bool SupportsCombined => false;
-
         public override bool SupportsPropertyInjection => false;
 
         public override object Resolve(Type type)
@@ -96,6 +92,13 @@ namespace IocPerformance.Adapters
 
             _singleton3 = new Singleton3();
             Mvx.RegisterSingleton<ISingleton3>(_singleton3);
+
+            Mvx.RegisterType<ITransient1, Transient1>();
+            Mvx.RegisterType<ITransient2, Transient2>();
+            Mvx.RegisterType<ITransient3, Transient3>();
+            Mvx.RegisterType<ICombined1, Combined1>();
+            Mvx.RegisterType<ICombined2, Combined2>();
+            Mvx.RegisterType<ICombined3, Combined3>();
         }
 
         private static void RegisterComplexObject()
