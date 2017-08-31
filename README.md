@@ -47,11 +47,11 @@ Results
 |**[DryIoc 2.11.6](https://bitbucket.org/dadhi/dryioc)**|67<br/>|307<br/>|
 |**[LightInject 5.0.3](https://github.com/seesharper/LightInject)**|180<br/>|963<br/>|
 |**[SimpleInjector 4.0.8](https://simpleinjector.org)**|623<br/>|2017<br/>|
-### Charts
+### Charts (Not updated yet)
 ![Basic features](http://www.palmmedia.de/content/blogimages/5225c515-2f25-498f-84fe-6c6e931d2042.png)
 ![Advanced features](http://www.palmmedia.de/content/blogimages/e0401485-20c6-462e-b5d4-c9cf854e6bee.png)
 ![Prepare](http://www.palmmedia.de/content/blogimages/67b056a5-9da8-40b4-9ae6-0c838cdac180.png)
 ### Machine
 The benchmark was executed on the following machine:  
 **CPU**: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz  
-**Memory**: 15.93GB
+**Memory**: 16.38GB
